@@ -1,0 +1,32 @@
+.pagebtn {
+  margin-top: 30px;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+.pagebtn a {
+  color: rgb(16, 142, 201);
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10%;
+  border: 1px solid black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pagebtn a:hover {
+  background-color:  rgb(8, 192, 192);
+  color: white;
+}
+.activepage a {
+  background-color: rgb(8, 192, 192);
+  color: white;
+}
+.card-img-top:hover {
+  opacity: 0.6;
+  background-color: rgb(247, 242, 240);
+}
+
